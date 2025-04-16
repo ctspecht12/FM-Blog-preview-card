@@ -1,0 +1,116 @@
+/* 
+
+## Layout
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800 */
+
+body {
+  font-family: Figtree, sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-height: 100vh;
+  flex-direction: column;
+  color: hsl(0, 0%, 7%);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h1 a {
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.author-block {
+  display: flex;
+  align-items: center;
+}
+
+.author-headshot {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.blog-card {
+  background-color: #fff;
+  border: hsl(0, 0%, 7%) solid 1px;
+  box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+  width: 325px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.date {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.featured-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+@media (max-width: 375px) {
+  .blog-card {
+    max-width: 75vw;
+  }
+}
