@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ctspecht12/FM-Blog-preview-card)
-- Live Site URL: [Add live site URL here](https://ctspecht12.github.com/FM-Blog-preview-card)
+- Solution URL: [Solution](https://github.com/ctspecht12/FM-Blog-preview-card)
+- Live Site URL: [Live Site](https://ctspecht12.github.io/FM-Blog-preview-card)
 
 ## My process
 
